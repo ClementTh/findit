@@ -26,7 +26,7 @@ Nous utilisons ensuite une application Flask afin de gérer l'affichage de toute
 
 # Architecture du code 
 
-![image] https://github.com/ClementTh/findit/blob/8179de180a45a32f07099d46ae8cf9ed7f7e6a04/graph.PNG
+![image](https://github.com/ClementTh/findit/blob/8179de180a45a32f07099d46ae8cf9ed7f7e6a04/graph.PNG)
 
 # Copyright
 
