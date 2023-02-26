@@ -3,7 +3,7 @@
 
 # Objectif de notre projet
 
-Notre projet est un comparateur de prix de jeux vidéo. En effet, il y a un certain nombre de sites qui vendent des clés d'activation de jeux, et il est parfois difficile de s'y retrouver. Nous avons donc décidé de choisir 5 sites populaires de vente de clés de jeux afin d'en extraire le prix pour un jeu donné. Nous allons donc effectuer le scraping de ces 5 sites : Instant Gaming, Eneba, CD Keys, Goclecd et GamersGate à chaque recherche
+Notre projet est un comparateur de prix de jeux vidéo. En effet, il y a un certain nombre de sites qui vendent des clés d'activation de jeux, et il est parfois difficile de s'y retrouver. Nous avons donc décidé de choisir 5 sites populaires de vente de clés de jeux afin d'en extraire le meilleur prix pour un jeu donné. Nous effectuons donc le scraping de ces 5 sites : Instant Gaming, Eneba, CD Keys, Goclecd et GamersGate à chaque recherche
 
 # Configuration requise
 
