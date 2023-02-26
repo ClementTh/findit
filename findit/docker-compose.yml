@@ -1,0 +1,26 @@
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+
+  flask:
+    build:
+      context: ./flask
+    ports:
+      - "5000:5000"
+    entrypoint: python -m flask --app views.py run -h 0.0.0.0
+    depends_on:
+      selenium:
+        condition: service_healthy
+
+  selenium:
+    image: selenium/standalone-chrome
+    ports:
+      - "4444:4444"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "http://localhost:4444"]
+      interval: 10s
+      timeout: 5s
+      retries: 3

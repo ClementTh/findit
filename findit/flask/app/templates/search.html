@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <H1><center>{{jeu}}!</center></H1>
+    <p><center>{{df|safe}}</center></p>
+{% endblock %}
