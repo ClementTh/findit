@@ -11,12 +11,12 @@ Docker Desktop 4.14.1.0
 
 # Installation
 
-Cloner le fichier à partir de git
-Lancer Docker Desktop
-Ouvrir le dossier findit dans VSCode
-Ouvrir un terminal dans VSCode et verifier que l'on est bien dans le dossier findit
-Exécuter dans le terminal : docker compose up
-Une fois que l'application flask est lancée, se connecter dans un navigateur avec la 1ere adresse indiquée (normalement: http://127.0.0.1:5000/ ou http://localhost:5000/)
+- Cloner le fichier à partir de git (https://github.com/ClementTh/findit)
+- Lancer Docker Desktop
+- Ouvrir le dossier findit dans VSCode
+- Ouvrir un terminal dans VSCode et verifier que l'on est bien dans le dossier findit
+- Exécuter dans le terminal : docker compose up
+- Une fois que l'application flask est lancée, se connecter dans un navigateur avec la 1ere adresse indiquée (normalement: http://127.0.0.1:5000/ ou http://localhost:5000/)
 
 # Utilisation
 
