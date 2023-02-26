@@ -33,7 +33,7 @@ Nous utilisons ensuite une application Flask afin de gérer l'affichage de toute
 
 # Copyright
 
-Nous déclarons sur l'honneur que le code fourni a été produit par nous-mêmes. Nous avons cependant recouru à la documentation de certaines fonctions
+Nous déclarons sur l'honneur que le code fourni a été produit par nous-mêmes. Nous avons cependant recouru à la documentation de certaines fonctions ainsi que certains sites spécialisés
 
 # Conclusion
 
