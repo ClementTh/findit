@@ -37,4 +37,4 @@ Nous déclarons sur l'honneur que le code fourni a été produit par nous-mêmes
 
 # Conclusion
 
-Notre projet avait pour but de créer une application simple d'usage permettant un comparatif en temps réel de différents sites de vente de jeux en ligne. Notre application focntionne bien et permet un gain de temps certain. Dans le futur il est possible d'imaginer l'adjonction de nouvelles focntionnalités telles que un système d'agrégation de notations (provenant par exemple de la presse spécialisée), et pourquoi pas des propositions de jeux en fonction des précédentes recherches de l'utilisateur.
+Notre projet avait pour but de créer une application simple d'usage permettant un comparatif en temps réel de différents sites de vente de jeux en ligne. Notre application fonctionne bien et permet un gain de temps certain. Dans le futur il est possible d'imaginer l'adjonction de nouvelles focntionnalités telles qu'un système d'agrégation de notations (provenant par exemple de la presse spécialisée), et pourquoi pas des propositions de jeux en fonction des précédentes recherches de l'utilisateur.
