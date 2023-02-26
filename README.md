@@ -1,10 +1,11 @@
-##Objectif de notre projet
+#Objectif de notre projet
 
 Notre projet est un comparateur de prix de jeux vidéo. En effet, il y a un certain nombre de sites qui vendent des clés d'activation de jeux, et il est parfois difficile de s'y retrouver. Nous avons donc décidé de choisir 5 sites populaires de vente de clés de jeux afin d'en extraire le prix pour un jeu donné. Nous allons donc effectuer le scraping de ces 5 sites : Instant Gaming, Eneba, CD Keys, Goclecd et GamersGate à chaque recherche
 
 #Configuration requise
 
 Docker Desktop 4.14.1.0
+
 #Installation
 
 Cloner le fichier à partir de git
@@ -23,7 +24,7 @@ Dans un premier temps, nous partons d'une liste de jeux que nous scrapons sur un
 Nous utilisons ensuite une application Flask afin de gérer l'affichage de toutes ces informations. À partir de cette application, l'utilisateur pourra accéder à la base de données ainsi qu'effectuer une recherche. Une fois la recherche effectuée, l'utilisateur pourra voir le prix actuel du jeu qu'il a cherché sur les différents sites, le lien du site, et finalement si le prix a baissé, augmenté ou s'il est resté le même. À noter que si l'utilisateur cherche un jeu qui n'est pas dans la base de données, la comparaison du prix indiquera que le prix est stable.
 
 
-##Architecture du code 
+#Architecture du code 
 
 ![image]
 
