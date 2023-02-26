@@ -20,7 +20,7 @@ Docker Desktop 4.14.1.0
 
 # Utilisation
 
-Il y a dans le github un fichier python (scrap_liste.py) et un dossier (findit). Le fichier python a été utilisé pour scrapper une liste de jeux. Le dossier correspond à la partie application. A noter que pour éxécuter le fichier scrap_liste.py il sera nécessaire d'avoir selenium d'installé ainsi que chrome driver dans le même fichier.
+Il y a dans le github un fichier python (scrap_liste.py) et un dossier (findit). Le fichier python a été utilisé pour scrapper une liste de jeux. Le dossier correspond à la partie application qui a été entièrement dockerisé. A noter que pour éxécuter le fichier scrap_liste.py il sera nécessaire d'avoir selenium d'installé ainsi que chrome driver dans le même fichier.
 
 Dans un premier temps, nous partons d'une liste de jeux que nous scrapons sur un site qui référence les meilleures ventes. L'idée étant d'avoir une base solide pour notre base de données. Par la suite, l'utilisateur pourra chercher n'importe quel jeu, et il sera scrapé en temps réel sur les 5 sites afin d'obtenir un lien et un prix. Ces informations seront stockées dans une base de données MongoDB qui agira de la sorte : si le jeu existe déjà, le prix sera mis à jour à condition que l'orthographe soit exacte, sinon le jeu sera ajouté à la base.
 
